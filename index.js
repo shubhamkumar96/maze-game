@@ -19,7 +19,7 @@ submitButton.addEventListener('click', event => {
     // console.log(hBoxInput, vBoxInput, submitButton);
     submitButton.addEventListener('click', event => {
         // console.log('dddd');
-        document.querySelector('.winner').classList.add('hidden');
+        // document.querySelector('.winner').classList.add('hidden');
         let mazeElement = document.querySelector('canvas');
         mazeElement.parentNode.removeChild(mazeElement);
         // console.log(document.querySelector('.maze'));
@@ -246,7 +246,7 @@ const drawMaze = (engine) => {
         event.pairs.forEach((collision) => {
             const labels = ['ball', 'goal'];
             if(labels.includes(collision.bodyA.label) && labels.includes(collision.bodyB.label)){
-                document.querySelector('.winner').classList.remove('hidden');
+                // document.querySelector('.winner').classList.remove('hidden');
                 world.gravity.y = 1;
                 world.bodies.forEach( body => {
                     if(body.label === 'wall'){
