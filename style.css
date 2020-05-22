@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.hideDiv {
+    display: none !important;
+}
+
+h1 {
+    color: white;
+    font-size: 72px;
+}
+
+.winner {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+}
+
+.box {
+    margin: 20% auto;
+    width: 800px;
+    height: 250px;
+    color: black;
+    font-weight: bold;
+}
+
+.column {
+    text-align: center;
+}
+
+.mazeViewInputs {
+    background-color: greenyellow;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 10px;
+    width: 50%;
+}
