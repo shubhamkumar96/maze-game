@@ -16,7 +16,7 @@ A JavaScript based maze game built using Matter.JS Library
 #### "Maze with dimension (5 X 3)"
 ![Demo Images](/screenshots/demo2.PNG?raw=true)
 
-#### "Maze with dimension (9 X 8)"
+#### "Maze with dimension (9 X 9)"
 ![Demo Images](/screenshots/demo3.PNG?raw=true)
 
 #### "Maze after winning the game"
